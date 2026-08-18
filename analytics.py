@@ -1,8 +1,5 @@
 def generate_analytics(messages):
-    """
-    Extract simple lead information from the conversation.
-    No AI/API call is used here.
-    """
+
 
     conversation = ""
 
