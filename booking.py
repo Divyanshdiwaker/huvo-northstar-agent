@@ -1,7 +1,5 @@
 def book_site_visit(date, time, should_succeed=True):
-    """
-    Simulates a site-visit booking.
-    """
+   
 
     if should_succeed:
         return {
