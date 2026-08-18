@@ -1,0 +1,16 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.vscode/
+.idea/
+
+temp_recording.wav
+response.wav
+*.mp3
+
+.streamlit/secrets.toml
