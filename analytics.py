@@ -20,10 +20,7 @@ def generate_analytics(messages):
     }
 
 
-    # --------------------------------------------------
     # BUDGET
-    # --------------------------------------------------
-
     budget_values = [
         "1 crore",
         "1.25 crore",
@@ -42,10 +39,9 @@ def generate_analytics(messages):
             break
 
 
-    # --------------------------------------------------
+    
     # CONFIGURATION
-    # --------------------------------------------------
-
+  
     if (
         "3 bhk" in conversation
         or "3bhk" in conversation
@@ -63,10 +59,8 @@ def generate_analytics(messages):
         analytics["configuration"] = "2 BHK"
 
 
-    # --------------------------------------------------
+    
     # PURPOSE
-    # --------------------------------------------------
-
     if any(
         phrase in conversation
         for phrase in [
@@ -93,9 +87,7 @@ def generate_analytics(messages):
         analytics["purpose"] = "Investment"
 
 
-    # --------------------------------------------------
     # INTEREST LEVEL
-    # --------------------------------------------------
 
     if any(
         phrase in conversation
@@ -137,10 +129,8 @@ def generate_analytics(messages):
         analytics["interest_level"] = "Medium"
 
 
-    # --------------------------------------------------
+    
     # SITE VISIT
-    # --------------------------------------------------
-
     if any(
         phrase in conversation
         for phrase in [
@@ -165,10 +155,9 @@ def generate_analytics(messages):
         analytics["site_visit_status"] = "Requested"
 
 
-    # --------------------------------------------------
-    # FOLLOW-UP
-    # --------------------------------------------------
 
+    # FOLLOW-UP
+    
     if any(
         phrase in conversation
         for phrase in [
@@ -185,9 +174,8 @@ def generate_analytics(messages):
         analytics["follow_up_required"] = True
 
 
-    # --------------------------------------------------
+    
     # LANGUAGE
-    # --------------------------------------------------
 
     hindi_words = [
         "mujhe",
