@@ -83,7 +83,7 @@ northstar-homes-ai/
 ### 1. Clone the repository
 
 ```
-git clone <YOUR_GITHUB_REPOSITORY>
+git clone (https://github.com/Divyanshdiwaker/huvo-northstar-agent)
 cd northstar-homes-ai
 ```
 
